@@ -37,13 +37,6 @@ Calving is a major contributor to ice mass loss in lake- and tidewater-terminati
 ├── MobileNet_Calving_Model.ipynb    # MobileNet — frozen backbone, transfer learning
 ├── VGG16_Calving_Model.ipynb        # VGG16 — frozen backbone, transfer learning
 ├── ResNet50_Calving_Model.ipynb     # ResNet-50 — frozen backbone, transfer learning
-├── data/                            # Dataset directory (see Dataset section)
-│   ├── train_images.npy
-│   ├── train_labels.npy
-│   ├── val_images.npy
-│   ├── val_labels.npy
-│   ├── test_images.npy
-│   └── test_labels.npy
 └── outputs/                         # Generated at runtime
     ├── model_calving.keras
     ├── VGG16_calving.keras
@@ -72,7 +65,7 @@ Time-lapse images were acquired with a fixed Canon EOS 50D camera (28 mm lens, f
 
 Data are stored as pre-normalized NumPy arrays of shape `(N, 256, 256, 3)` with pixel values in `[0, 1]`. Labels are binary arrays (`1` = calving, `0` = no-calving).
 
-**Dataset archive:** [DOI / repository link — to be filled upon publication]
+**Dataset is archived on Zenodo:** [https://doi.org/10.5281/zenodo.20272986]
 
 ---
 
@@ -87,28 +80,30 @@ seaborn
 scikit-learn
 ```
 
-Install all dependencies:
-
-```bash
-pip install tensorflow numpy matplotlib seaborn scikit-learn
-```
-
-The notebooks were trained on an **NVIDIA A100 GPU**. A GPU is recommended for VGG16 and ResNet-50; the 2D-CNN can be trained on CPU in reasonable time.
+The notebooks were trained on an **NVIDIA A100 GPU**. A GPU is recommended for VGG16, MobileNet and ResNet-50; the 2D-CNN can be trained on CPU in reasonable time.
 
 ---
 
 ## Usage
 
-**1. Clone this repository**
+**1. Installation**
 
 ```bash
 git clone https://github.com/[username]/[repo-name].git
 cd [repo-name]
+
+# (Recommended) create a virtual environment
+python -m venv .venv
+# Windows
+.venv\Scripts\activate
+
+#Install all dependencies
+pip install tensorflow numpy matplotlib seaborn scikit-learn
 ```
 
 **2. Download the dataset**
 
-Download the `.npy` files from [dataset archive — DOI to be filled] and place them in the `data/` folder:
+Download the `.npy` files from [https://doi.org/10.5281/zenodo.20272986] and place them in a `data/` folder:
 
 ```
 data/
@@ -137,7 +132,6 @@ data loading → model definition → training → evaluation → confusion matr
 ## Reproducibility
 
 - The dataset split is fixed (`random_state=1`) and identical across all four notebooks.
-- The decision threshold is selected to maximise F1-score on the **validation set** and applied without modification to the test set. The optimal threshold is printed at runtime and saved alongside the predictions.
 - All training curves, confusion matrices, and sample prediction figures are saved automatically to `outputs/`.
 - Pre-trained backbone weights for VGG16, ResNet-50, and MobileNet are downloaded automatically from TensorFlow/Keras (ImageNet weights).
 
