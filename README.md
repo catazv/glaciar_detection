@@ -36,10 +36,11 @@ The proposed 2D-CNN achieves classification performance comparable to much large
 ```
 .
 ├── README.md
-├── CNN_Calving_Model.ipynb          # Lightweight 2D-CNN — trained from scratch
-├── MobileNet_Calving_Model.ipynb    # MobileNet — frozen backbone, transfer learning
-├── VGG16_Calving_Model.ipynb        # VGG16 — frozen backbone, transfer learning
-├── ResNet50_Calving_Model.ipynb     # ResNet-50 — frozen backbone, transfer learning
+├── models/
+    ├── CNN_Calving_Model.ipynb          # Lightweight 2D-CNN — trained from scratch
+    ├── MobileNet_Calving_Model.ipynb    # MobileNet — frozen backbone, transfer learning
+    ├── VGG16_Calving_Model.ipynb        # VGG16 — frozen backbone, transfer learning
+    ├── ResNet50_Calving_Model.ipynb     # ResNet-50 — frozen backbone, transfer learning
 └── outputs/                         # Generated at runtime
     ├── model_calving.keras
     ├── VGG16_calving.keras
@@ -51,7 +52,8 @@ The proposed 2D-CNN achieves classification performance comparable to much large
     ├── confusion_matrices*.png
     └── sample_predictions*.png
 ```
-
+> **Note:** The ResNet-50 trained model (`resnet50_calving.keras`, 145 MB) exceeds GitHub's file size limit and is archived on Zenodo together with the dataset: https://doi.org/10.5281/zenodo.20272986
+ 
 ---
 
 ## Dataset
@@ -124,7 +126,7 @@ Open any of the four notebooks and run all cells in order. The only configuratio
 
 ```python
 DATA_DIR   = "../data"     # path to folder with .npy files
-OUTPUT_DIR = "../outputs"  # path for saving models, predictions, and figures
+OUTPUT_DIR = "../outputs"  # path for saving/load models, predictions, and figures
 ```
 
 Each notebook is self-contained and follows the same structure:
