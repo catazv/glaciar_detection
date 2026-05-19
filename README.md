@@ -123,8 +123,8 @@ data/
 Open any of the four notebooks and run all cells in order. The only configuration required is in the **Section 0 cell** at the top of each notebook:
 
 ```python
-DATA_DIR   = "data"     # path to folder with .npy files
-OUTPUT_DIR = "outputs"  # path for saving models, predictions, and figures
+DATA_DIR   = "../data"     # path to folder with .npy files
+OUTPUT_DIR = "../outputs"  # path for saving models, predictions, and figures
 ```
 
 Each notebook is self-contained and follows the same structure:
