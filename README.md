@@ -40,7 +40,7 @@ The proposed 2D-CNN achieves classification performance comparable to much large
     ├── CNN_Calving_Model.ipynb          # Lightweight 2D-CNN — trained from scratch
     ├── MobileNet_Calving_Model.ipynb    # MobileNet — frozen backbone, transfer learning
     ├── VGG16_Calving_Model.ipynb        # VGG16 — frozen backbone, transfer learning
-    ├── ResNet50_Calving_Model.ipynb     # ResNet-50 — frozen backbone, transfer learning
+    └── ResNet50_Calving_Model.ipynb     # ResNet-50 — frozen backbone, transfer learning
 └── outputs/                         # Generated at runtime
     ├── model_calving.keras
     ├── VGG16_calving.keras
