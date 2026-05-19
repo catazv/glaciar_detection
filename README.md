@@ -22,9 +22,14 @@ Calving is a major contributor to ice mass loss in lake- and tidewater-terminati
 
 ## Key Results
 
+The proposed 2D-CNN achieves classification performance comparable to much larger architectures while requiring a fraction of their computational resources:
+
+* Matches VGG16 on F1-score (0.865) with **445× fewer parameters**
+* Approaches MobileNet F1 (0.905 vs 0.865) with **150× fewer parameters**  
+* **9× faster inference** than VGG16, **3× faster** than MobileNet
 *
-*
-*
+Model footprint of **0.487 MB** — compatible with low-power embedded hardware
+  for autonomous deployment at remote glacier monitoring stations
 
 ---
 
