@@ -27,9 +27,7 @@ The proposed 2D-CNN achieves classification performance comparable to much large
 * Matches VGG16 on F1-score (0.865) with **445× fewer parameters**
 * Approaches MobileNet F1 (0.905 vs 0.865) with **150× fewer parameters**  
 * **9× faster inference** than VGG16, **3× faster** than MobileNet
-*
-Model footprint of **0.487 MB** — compatible with low-power embedded hardware
-  for autonomous deployment at remote glacier monitoring stations
+* Model footprint of **0.487 MB** — compatible with low-power embedded hardware for autonomous deployment at remote glacier monitoring stations
 
 ---
 
