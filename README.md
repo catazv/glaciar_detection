@@ -1,4 +1,4 @@
-# Detection of Calving Events at Perito Moreno Glacier Using Deep Learning on Time-Lapse Imagery
+# Detection of Calving Events at Perito Moreno Glacier (Patagonia) Using Deep Learning on Time-Lapse Imagery
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Python 3.12](https://img.shields.io/badge/Python-3.12-blue.svg)](https://www.python.org/)
@@ -7,7 +7,7 @@
 
 Official code and data repository for the paper:
 
-> **Detection of Calving Events at Perito Moreno Glacier Using Deep Learning on Time-Lapse Imagery**  
+> **Detection of Calving Events at Perito Moreno Glacier (Patagonia) Using Deep Learning on Time-Lapse Imagery**  
 > Catalina Zapata, Angelica Monserrat Buenrostro, Sergio Ruiz, Carlos F. Navarro, Leoncio Cabrera, Edgardo Casanova
 > *[Journal name — to be filled]*  
 > DOI: [to be filled upon acceptance]
