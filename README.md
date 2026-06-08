@@ -11,6 +11,7 @@ Official code and data repository for the paper:
 > Catalina Zapata, Angelica Monserrat Buenrostro, Sergio Ruiz, Carlos F. Navarro, Leoncio Cabrera, Edgardo Casanova
 > *[Journal name — to be filled]*  
 > DOI: [to be filled upon acceptance]
+> 
 > [Data set]. Zenodo. https://doi.org/10.5281/zenodo.20272986
 
 ---
