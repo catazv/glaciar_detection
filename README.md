@@ -165,7 +165,9 @@ If you use this code or dataset in your work, please cite:
 
 This repository complements the multimodal calving monitoring framework at Perito Moreno Glacier. For seismic-based detection using template matching at the same site, see:
 
-> Cabrera, L., et al. (2026). Localized calving sensitivity at Perito Moreno Glacier (Patagonia) revealed by seismic template matching and time-lapse images. *Journal of Geophysical Research: Earth Surface*, 131(4), e2025JF008688. https://doi.org/10.1029/2025JF008688
+> Cabrera, L., Casanova, E., Torres, R., Ruiz, S., Rojas, V., Minowa, M., et al. (2026). Localized calving sensitivity at Perito Moreno Glacier (Patagonia) revealed by seismic template matching and time-lapse images. Journal of Geophysical Research: Earth Surface, 131, e2025JF008688. https://doi.org/10.1029/2025JF008688
+> Cabrera, L., Casanova, E., Torres, R., Ruiz, S., Rojas, V., Minowa, M., Wiens, D., Casassa, G., & Rifo, A. (2026). Localized Calving Sensitivity at Perito Moreno Glacier (Patagonia) Revealed by Seismic Template Matching and Time-Lapse Images [Data set]. In Journal of Geophysical Research: Earth Surface. Zenodo. https://doi.org/10.5281/zenodo.19003820
+
 
 ---
 
