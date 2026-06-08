@@ -8,7 +8,7 @@
 Official code and data repository for the paper:
 
 > **Detection of Calving Events at Perito Moreno Glacier Using Deep Learning on Time-Lapse Imagery**  
-> Catalina Zapata, Angelica Monserrat Buenrostro, Sergio Ruiz, Carlos F. Navarro, Leoncio Cabrera, Edgardo Casanova, Gino Casassa, Masahiro Minowa  
+> Catalina Zapata, Angelica Monserrat Buenrostro, Sergio Ruiz, Carlos F. Navarro, Leoncio Cabrera, Edgardo Casanova
 > *[Journal name — to be filled]*  
 > DOI: [to be filled upon acceptance]
 
